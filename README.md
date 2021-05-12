@@ -1,0 +1,1 @@
+# angular-lint-prettier-husky
