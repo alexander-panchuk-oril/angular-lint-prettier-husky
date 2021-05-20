@@ -25,6 +25,8 @@ A basic guided demo to show how to introduce [ESLint](https://eslint.org/), [Sty
 - [x] [stylelint]()
 - [x] [Prettier]()
 - [ ] Husky
+- [ ] Icons
+- [ ] GIFs
 
 ---
 
