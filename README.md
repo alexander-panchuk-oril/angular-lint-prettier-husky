@@ -27,6 +27,7 @@ A basic guided demo to show how to introduce [ESLint](https://eslint.org/), [Sty
 - [ ] Husky
 - [ ] Icons
 - [ ] GIFs
+- [ ] Anchors links
 
 ---
 
