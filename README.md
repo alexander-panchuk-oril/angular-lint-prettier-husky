@@ -24,7 +24,7 @@ A basic guided demo to show how to introduce [ESLint](https://eslint.org/), [Sty
 - [x] [ESLint]()
 - [x] [stylelint]()
 - [x] [Prettier]()
-- [] Husky
+- [ ] Husky
 
 ---
 
@@ -140,7 +140,37 @@ npm install --save-dev stylelint stylelint-config-sass-guidelines stylelint-sele
 1. In your project root folder create a `.stylelintrc` file and paste content in it:
 
 ```json
-code
+{
+  "extends": "stylelint-config-sass-guidelines",
+  "plugins": [
+    "stylelint-selector-bem-pattern"
+  ],
+  "rules": {
+    "indentation": 2,
+    "number-leading-zero": null,
+    "max-nesting-depth": 5,
+    "plugin/selector-bem-pattern": {
+      "componentName": "[A-Z]+",
+      "componentSelectors": {
+        "initial": "^\\.{componentName}(?:-[a-z]+)?$",
+        "combined": "^\\.combined-{componentName}-[a-z]+$"
+      },
+      "utilitySelectors": "^\\.util-[a-z]+$"
+    },
+    "selector-class-pattern": [
+      "^(?:(?:o|c|u|t|s|is|has|_|js|qa)-)?[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*(?:__[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*)?(?:--[a-zA-Z0-9]+(?:-[a-zA-Z0-9]+)*)?(?:\\[.+\\])?$",
+      {
+        "message": "Class names should match the SUIT CSS naming convention"
+      }
+    ],
+    "selector-no-qualifying-type": [ 
+      true, 
+      {
+          "ignore": [ "attribute", "class", "id" ]
+      }
+    ]
+  }
+}
 ```
 
 2. Find a `"scripts"` object in a `panckage.json` and add two more scripts on it:
