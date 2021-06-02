@@ -261,7 +261,7 @@ There are two ways how we can use [Prettier](https://prettier.io/):
 
 2. Via [npm](https://www.npmjs.com/):
 
-- Run `npm run format ` to autoformat code
+- Run `npm run format` to autoformat code
 
 ## 💫 Feedback
 
