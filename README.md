@@ -24,14 +24,14 @@ A basic guided demo to show how to introduce [ESLint](https://eslint.org/), [Sty
 - [x] [ESLint]()
 - [x] [stylelint]()
 - [x] [Prettier]()
+- [x] Icons
 - [ ] Husky
-- [ ] Icons
 - [ ] GIFs
 - [ ] Anchors links
 
 ---
 
-## [Icon] ESLint
+## ![ESLint icon](https://raw.githubusercontent.com/alexander-panchuk-oril/angular-lint-prettier-husky/main/src/assets/eslint_32x32.png) ESLint
 
 > By default for linting Angular project use [TSLint](https://palantir.github.io/tslint/), but it has been deprecated as of 2019. So to keep your project linting we have to use the [ESLint](https://eslint.org/).
 
@@ -122,7 +122,7 @@ There are two ways how we can use [ESLint](https://eslint.org/):
 - Run `npm run lint` to analyze code
 - Run `npm run lint--fix` to autofix code
 
-## [Icon] stylelint
+## ![stylelint icon](https://raw.githubusercontent.com/alexander-panchuk-oril/angular-lint-prettier-husky/main/src/assets/stylelint_32x32.png) stylelint
 
 > A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
 
@@ -196,7 +196,7 @@ There are two ways how we can use [stylelint](https://stylelint.io/):
 - Run `npm run lint:style` to analyze code
 - Run `npm run lint:style--fix` to autofix code
 
-## [Icon] Prettier
+## ![Prettier icon](https://raw.githubusercontent.com/alexander-panchuk-oril/angular-lint-prettier-husky/main/src/assets/prettier_32x32.png)  Prettier
 
 [Prettier](https://prettier.io/) is a code formatter that enforces a consistent code style across your entire codebase.
 
