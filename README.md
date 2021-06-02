@@ -4,30 +4,30 @@ A basic guided demo to show how to introduce [ESLint](https://eslint.org/), [Sty
 
 --- 
 ### Table of contents
-- [ESLint]()
-  - [🚀 Installing]()
-  - [⚙️ Configuring]()
-  - [👨‍💻 Usage]()
-- [stylelint]()
-  - [🚀 Installing]()
-  - [⚙️ Configuring]()
-  - [👨‍💻 Usage]()
-- [Prettier]()
-  - [🚀 Installing]()
-  - [⚙️ Configuring]()
-  - [👨‍💻 Usage]()
-- [💫 Feedback]()
-- [📑 License]()
+- [ESLint](#-eslint)
+  - [🚀 Installing](#-installing)
+  - [⚙️ Configuring](#%EF%B8%8F-configuring)
+  - [👨‍💻 Usage](#-usage)
+- [stylelint](#-stylelint)
+  - [🚀 Installing](#-installing-1)
+  - [⚙️ Configuring](#%EF%B8%8F-configuring-1)
+  - [👨‍💻 Usage](#-usage-1)
+- [Prettier](#--prettier)
+  - [🚀 Installing](#-installing-2)
+  - [⚙️ Configuring](#%EF%B8%8F-configuring-2)
+  - [👨‍💻 Usage](#-usage-2)
+- [💫 Feedback](#-feedback)
+- [📑 License](#-license)
 
 ---
 ### Todo list:
-- [x] [ESLint]()
-- [x] [stylelint]()
-- [x] [Prettier]()
+- [x] [ESLint](#-eslint)
+- [x] [stylelint](#-stylelint)
+- [x] [Prettier](#--prettier)
 - [x] Icons
+- [x] Anchors links
 - [ ] Husky
 - [ ] GIFs
-- [ ] Anchors links
 
 ---
 
