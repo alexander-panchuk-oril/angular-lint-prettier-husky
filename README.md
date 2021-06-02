@@ -26,8 +26,8 @@ A basic guided demo to show how to introduce [ESLint](https://eslint.org/), [Sty
 - [x] [Prettier](#--prettier)
 - [x] Icons
 - [x] Anchors links
+- [x] GIFs
 - [ ] Husky
-- [ ] GIFs
 
 ---
 
@@ -37,7 +37,7 @@ A basic guided demo to show how to introduce [ESLint](https://eslint.org/), [Sty
 
 ESLint is a tool that analyses your code for identifying and reporting on patterns found in code as a result of making code more consistent and avoiding bugs.
 
-[GIF Image]
+![ESLint demo](https://raw.githubusercontent.com/alexander-panchuk-oril/angular-lint-prettier-husky/main/src/assets/eslint-demo.gif)
 
 ### 🚀 Installing
 
@@ -128,7 +128,7 @@ There are two ways how we can use [ESLint](https://eslint.org/):
 
 Same purpose as an ESLint, but instead of working with JS, TS and JSON [stylelint](https://stylelint.io/) works with CSS/SCSS/SASS.
 
-[GIF Image]
+![stylelint demo](https://raw.githubusercontent.com/alexander-panchuk-oril/angular-lint-prettier-husky/main/src/assets/stylelint-demo.gif)
 
 ### 🚀 Installing
 
@@ -200,7 +200,7 @@ There are two ways how we can use [stylelint](https://stylelint.io/):
 
 [Prettier](https://prettier.io/) is a code formatter that enforces a consistent code style across your entire codebase.
 
-[GIF Image]
+![Prettier demo](https://raw.githubusercontent.com/alexander-panchuk-oril/angular-lint-prettier-husky/main/src/assets/prettier-demo.gif)
 
 ### 🚀 Installing
 
