@@ -4,15 +4,15 @@ A basic guided demo to show how to introduce [ESLint](https://eslint.org/), [Sty
 
 --- 
 ### Table of contents
-- [ESLint](#-eslint)
+- ![ESLint icon](https://raw.githubusercontent.com/alexander-panchuk-oril/angular-lint-prettier-husky/main/src/assets/eslint_32x32.png) [ESLint](#-eslint)
   - [🚀 Installing](#-installing)
   - [⚙️ Configuring](#%EF%B8%8F-configuring)
   - [👨‍💻 Usage](#-usage)
-- [stylelint](#-stylelint)
+- ![stylelint icon](https://raw.githubusercontent.com/alexander-panchuk-oril/angular-lint-prettier-husky/main/src/assets/stylelint_32x32.png) [stylelint](#-stylelint)
   - [🚀 Installing](#-installing-1)
   - [⚙️ Configuring](#%EF%B8%8F-configuring-1)
   - [👨‍💻 Usage](#-usage-1)
-- [Prettier](#--prettier)
+- ![Prettier icon](https://raw.githubusercontent.com/alexander-panchuk-oril/angular-lint-prettier-husky/main/src/assets/prettier_32x32.png) [Prettier](#--prettier)
   - [🚀 Installing](#-installing-2)
   - [⚙️ Configuring](#%EF%B8%8F-configuring-2)
   - [👨‍💻 Usage](#-usage-2)
@@ -196,7 +196,7 @@ There are two ways how we can use [stylelint](https://stylelint.io/):
 - Run `npm run lint:style` to analyze code
 - Run `npm run lint:style--fix` to autofix code
 
-## ![Prettier icon](https://raw.githubusercontent.com/alexander-panchuk-oril/angular-lint-prettier-husky/main/src/assets/prettier_32x32.png)  Prettier
+## ![Prettier icon](https://raw.githubusercontent.com/alexander-panchuk-oril/angular-lint-prettier-husky/main/src/assets/prettier_32x32.png) Prettier
 
 [Prettier](https://prettier.io/) is a code formatter that enforces a consistent code style across your entire codebase.
 
