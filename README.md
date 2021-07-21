@@ -115,7 +115,8 @@ There are two ways how we can use [ESLint](https://eslint.org/):
 
 1. Via IDE:
 
-- For VS Code you can use [ESLint plugin](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint), or you can find this plugin by extension id: `dbaeumer.vscode-eslint`
+- For [VS Code](https://code.visualstudio.com/) you can use [ESLint plugin](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint), or you can find this plugin by extension id: `dbaeumer.vscode-eslint`
+- For [IntelliJ IDEA](https://www.jetbrains.com/idea/) use [ESLint Intellij Plugin](https://www.jetbrains.com/help/idea/eslint.html)
 
 2. Via [npm](https://www.npmjs.com/):
 
@@ -151,7 +152,7 @@ npm install --save-dev stylelint stylelint-config-sass-guidelines stylelint-sele
   "rules": {
     "indentation": 2,
     "number-leading-zero": null,
-    "max-nesting-depth": 5,
+    "max-nesting-depth": 9,
     "plugin/selector-bem-pattern": {
       "componentName": "[A-Z]+",
       "componentSelectors": {
@@ -166,12 +167,13 @@ npm install --save-dev stylelint stylelint-config-sass-guidelines stylelint-sele
         "message": "Class names should match the SUIT CSS naming convention"
       }
     ],
-    "selector-no-qualifying-type": [ 
-      true, 
+    "selector-no-qualifying-type": [
+      true,
       {
-          "ignore": [ "attribute", "class", "id" ]
+        "ignore": [ "attribute", "class", "id" ]
       }
-    ]
+    ],
+    "function-parentheses-space-inside": null
   }
 }
 ```
@@ -189,7 +191,8 @@ There are two ways how we can use [stylelint](https://stylelint.io/):
 
 1. Via IDE:
 
-- For VS Code you can use [stylelint plugin](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint), or you can find this plugin by extension id: `stylelint.vscode-stylelint`
+- For [VS Code](https://code.visualstudio.com/) you can use [stylelint plugin](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint), or you can find this plugin by extension id: `stylelint.vscode-stylelint`
+- For [IntelliJ IDEA](https://www.jetbrains.com/idea/) use [StyleLint Intellij Plugin](https://www.jetbrains.com/help/idea/using-stylelint-code-quality-tool.html)
 
 2. Via [npm](https://www.npmjs.com/):
 
@@ -257,7 +260,8 @@ There are two ways how we can use [Prettier](https://prettier.io/):
 
 1. Via IDE:
 
-- For VS Code you can use [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), or you can find this plugin by extension id: `esbenp.prettier-vscode`
+- For [VS Code](https://code.visualstudio.com/) you can use [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), or you can find this plugin by extension id: `esbenp.prettier-vscode`
+- For [IntelliJ IDEA](https://www.jetbrains.com/idea/) use [Prettier Intellij Plugin](https://www.jetbrains.com/help/idea/prettier.html)
 
 2. Via [npm](https://www.npmjs.com/):
 

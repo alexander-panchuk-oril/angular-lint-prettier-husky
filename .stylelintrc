@@ -6,7 +6,7 @@
   "rules": {
     "indentation": 2,
     "number-leading-zero": null,
-    "max-nesting-depth": 5,
+    "max-nesting-depth": 9,
     "plugin/selector-bem-pattern": {
       "componentName": "[A-Z]+",
       "componentSelectors": {
@@ -21,11 +21,12 @@
         "message": "Class names should match the SUIT CSS naming convention"
       }
     ],
-    "selector-no-qualifying-type": [ 
-      true, 
+    "selector-no-qualifying-type": [
+      true,
       {
-          "ignore": [ "attribute", "class", "id" ]
+        "ignore": [ "attribute", "class", "id" ]
       }
-    ]
+    ],
+    "function-parentheses-space-inside": null
   }
 }
