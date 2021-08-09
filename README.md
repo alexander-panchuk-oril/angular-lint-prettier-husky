@@ -53,7 +53,7 @@ ng add @angular-eslint/schematics
 ng g @angular-eslint/schematics:convert-tslint-to-eslint --remove-tslint-if-no-more-tslint-targets --ignore-existing-tslint-config
 ```
 
-3. Find a `"scripts"` object in a `panckage.json` and add two more scripts on it:
+3. Find a `"scripts"` object in a `package.json` and add two more scripts on it:
 
 ```json
     "lint": "ng lint",
@@ -178,7 +178,7 @@ npm install --save-dev stylelint stylelint-config-sass-guidelines stylelint-sele
 }
 ```
 
-2. Find a `"scripts"` object in a `panckage.json` and add two more scripts on it:
+2. Find a `"scripts"` object in a `package.json` and add two more scripts on it:
 
 ```json
     "lint:style": "stylelint 'src/**/*.scss' -f verbose",
