@@ -60,7 +60,7 @@ ng g @angular-eslint/schematics:convert-tslint-to-eslint --remove-tslint-if-no-m
     "lint--fix": "tsc --noEmit && eslint . --ext ts --fix"
 ```
 
-🛎️ From this time we already can use linting in a project, but I hardly recommend adding a bit of setting in that file.
+🛎️ From this time we already can use linting in a project, but I strongly recommend adding a bit of setting in that file.
 
 ### ⚙️ Configuring
 
